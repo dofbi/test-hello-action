@@ -1,0 +1,10 @@
+name: Hello World Test
+
+on: [push, pull_request]
+
+jobs:
+  hello-world-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: dofbi/action-hello@1.0.2
