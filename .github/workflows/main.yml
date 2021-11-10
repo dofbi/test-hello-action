@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: dofbi/action-hello@1.0.2
+      - uses: dofbi/action-hello@v1.0.2
